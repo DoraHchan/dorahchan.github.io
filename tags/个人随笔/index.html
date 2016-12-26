@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   
-  <title>Archives: 2016/12 | Hchan&quot;(￣▽￣)&quot;</title>
+  <title>Tag: 个人随笔 | Hchan&quot;(￣▽￣)&quot;</title>
   <meta name="description" content="A minimal hexo theme." />
   <meta name="keywords" content="hexo,theme,typescript,otakism,otaku" />
   <meta name="HandheldFriendly" content="True" />
@@ -12,7 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
 <meta property="og:title" content="Hchan"(￣▽￣)"">
-<meta property="og:url" content="http://yoursite.com/archives/2016/12/index.html">
+<meta property="og:url" content="http://yoursite.com/tags/个人随笔/index.html">
 <meta property="og:site_name" content="Hchan"(￣▽￣)"">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hchan"(￣▽￣)"">
@@ -75,12 +75,11 @@
     
     <main id="main" role="main">
       
-	
-
-
-	<section class="page-header archive">
-    <h1>- <span>2016.12</span> -</h1>
+	<section class="page-header tag">
+    <h1>- <span>个人随笔</span> -</h1>
   </section>
+
+
 
 
 
@@ -116,70 +115,7 @@
   </section>
 </article>
   
-    <article class="post ">
-
-  
-  <h2 class="title">
-    <a href="/2016/12/23/Hexo + Github-搭建个人blog基本套路/">
-      Hexo &#39;+&#39; Github 搭建个人 blog 基本套路
-    </a>
-  </h2>
-  
-  <time>
-    Dec 22, 2016
-  </time>
-  <section class="content">
-	  <h2 id="搭建环境"><a href="#搭建环境" class="headerlink" title="搭建环境"></a>搭建环境</h2><p>[] 安装 git ————用于同步本地以及服务器端文件，简言之，至于为什么用这么高大上的东西？都打算自己搭建blog了，版本控制器对于更新纠正数据也会便捷许多<br>[] 安装 nodeJs ———— Hexo 的 blog 框架是依赖nodeJs这个包的，没有 nodeJs，blog 没有框架就好像漂移的车没了车架<br>[x] 以上安装都是满足本地的 blog 书写环境，以及日后搭建的平台能显得有格调，内涵</p>
-<h2 id="服务端需求"><a href="#服务端需求" class="headerlink" title="服务端需求"></a>服务端需求</h2><p>[] github 能为个人用户提供300M的存储空间，用作个人 blog 数据管理，所以还是偏向使用 github，不过目前国内两大云厂商都有一堆福利，觉得麻烦的话，也可以使用这两家的，企鹅家的优惠还行，有各种优惠券，阿里家的满足基础消费可以免费用半年，加上消费的也基本够用了<br>[] 这里还是会侧重 github pages<br>[] GitHub Pages 本用于介绍托管在 GitHub 的项目， 不过，由于他的空间免费稳定，用来做搭建一个博客再好不过了。<br>[] github pages 可以在开始创建第一个项目后，setting 生成 github pages<br>[] 生成后，可以得到 ‘yourname.github.io’ 的网址，这边是个人博客页面</p>
-<h2 id="配置Hexo"><a href="#配置Hexo" class="headerlink" title="配置Hexo"></a>配置Hexo</h2><p>[] 在完成上述步骤后可以去以下网站：</p>
-<h3 id="Hexo官网"><a href="#Hexo官网" class="headerlink" title="Hexo官网"></a><a href="https://hexo.io/zh-cn/" target="_blank" rel="external">Hexo官网</a></h3><h4 id="或者链接-https-hexo-io-zh-cn"><a href="#或者链接-https-hexo-io-zh-cn" class="headerlink" title="或者链接 https://hexo.io/zh-cn/"></a>或者链接 <a href="https://hexo.io/zh-cn/" target="_blank" rel="external">https://hexo.io/zh-cn/</a></h4><p>在 cmd 窗口，或者 powershell 窗口， linux 的 terminal 中进行如下命令安装配置<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">npm install hexo-cli -g</div><div class="line">hexo init blog</div><div class="line">cd blog</div><div class="line">npm install</div><div class="line">hexo server</div></pre></td></tr></table></figure></p>
-<p>[] 当然，建议安装前可以先查看文档，明白基础命令及其意义<br>[] 完成上述配置，便可以使用 <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> 预览目前安装完成后的博客界面<br>[] 接下来便是，魔改 Hexo ，实现个人主题，在之后根据文档创建文章即可</p>
-<h2 id="配置-Deployment，部署上传内容"><a href="#配置-Deployment，部署上传内容" class="headerlink" title="配置 Deployment，部署上传内容"></a>配置 Deployment，部署上传内容</h2><p>[] 首先，配置自己的git身份信息，也就是将本地的 Hexo 和 github.io 链接, yourname 就是作者名字（不一定要和github一致）， youremail 则是github 的邮箱<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --global user.name &quot;yourname&quot;</div><div class="line">git config --global user.email &quot;youremail&quot;</div></pre></td></tr></table></figure></p>
-<p>同样在_config.yml（ hexo 的 blog 文件夹中）文件中，找到Deployment，然后按照如下修改：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  repo: git@github.com:yourname/yourname.github.io.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure></p>
-<p>[] 文章编辑完成后，利用<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo clean</div><div class="line">hexo -d g</div></pre></td></tr></table></figure></p>
-<p>即可完成部署，如果提前配置好git，此处就直接输入密码，否则按照提示分别输入自己的Github账号用户名和密码，开始上传。 然后通过’<a href="http://yourname.github.io/&#39;来访问自己刚刚上传的网站。" target="_blank" rel="external">http://yourname.github.io/&#39;来访问自己刚刚上传的网站。</a><br>‘( •̀ ω •́ )y’</p>
-
-
-    
-    
-    
-
-  </section>
-</article>
-  
-    <article class="post ">
-
-  
-  <h2 class="title">
-    <a href="/2016/12/22/hello-world/">
-      Hello World
-    </a>
-  </h2>
-  
-  <time>
-    Dec 22, 2016
-  </time>
-  <section class="content">
-	  <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-
-    
-    
-    
-
-  </section>
-</article>
-  
 </section>
-
 
 
       <script>setLoadingBarProgress(60);</script>
