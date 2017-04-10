@@ -1,276 +1,774 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  
-  <title>Archives: 2017/2 | Hchan&quot;(￣▽￣)&quot;</title>
-  <meta name="description" content="A minimal hexo theme." />
-  <meta name="keywords" content="hexo,theme,typescript,otakism,otaku" />
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hchan"(￣▽￣)"">
-<meta property="og:url" content="http://yoursite.com/archives/2017/02/index.html">
-<meta property="og:site_name" content="Hchan"(￣▽￣)"">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hchan"(￣▽￣)"">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-	<script src="https://use.typekit.net/eyf3hir.js"></script>
-  <script>try{Typekit.load({ async: false });}catch(e){}</script>
-  <link rel="stylesheet" href="/style.css">
-  <script>
-    function setLoadingBarProgress(num) {
-      document.getElementById('loading-bar').style.width=num+"%";
-    }
-  </script>
+<html lang="zh">
+    <head>
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.3.3 -->
+
+    <!-- Title -->
+    
+    <title>
+        
+            归档: 2017/2 | 
+        
+        Hchan&quot;(￣▽￣)&quot;
+    </title>
+
+    <!-- Meta & Info -->
+    <meta charset="utf-8">
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    
+    
+    
+    
+    
+    
+
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0097A7">
+    <meta name="author" content="HarrisonChan">
+    <meta name="description" content="null">
+    <meta name="keywords" content="null">
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="http://wx4.sinaimg.cn/small/e3bf8906gy1fcmcb5ao35j20b40b4q3f.jpg">
+    <link rel="icon" sizes="192x192" href="http://wx4.sinaimg.cn/small/e3bf8906gy1fcmcb5ao35j20b40b4q3f.jpg">
+    <link rel="apple-touch-icon" href="http://wx4.sinaimg.cn/small/e3bf8906gy1fcmcb5ao35j20b40b4q3f.jpg">
+
+    <!--iOS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-title" content="Title">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="480">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Hchan&quot;(￣▽￣)&quot;">
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="http://yoursite.com">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="归档: 2017/2 | Hchan&quot;(￣▽￣)&quot;">
+    <meta property="og:description" content="null">
+    
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import CSS & jQuery -->
+    
+        <link rel="stylesheet" href="/css/material.min.css">
+        <link rel="stylesheet" href="/css/style.min.css">
+        <!-- Config CSS -->
+
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-color: #F5F5F5;
+      }
+
+      /* blog_info bottom background */
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+        background-color: #fff;
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/queue.js"></script>
+    
+
+    <!-- UC Browser Compatible -->
+    <script>
+        var agent = navigator.userAgent.toLowerCase();
+        if(agent.indexOf('ucbrowser')>0) {
+            document.write("<link rel=\"stylesheet\" href=\"/css/uc.css\">");
+            alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+        }
+    </script>
+
+    
+
+    
+
+
+    <!-- Bing Background -->
+    
+
+    <!-- Custom Head -->
+    
 </head>
 
-<body>
-  
-  <div id="loading-bar-wrapper">
-  <div id="loading-bar"></div>
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Index Module -->
+<div class="material-index mdl-grid">
+    
+    <div class="locate-thumbnail-symbol"></div>
+
+    <!-- Pin on top -->
+    
+
+    <!-- Normal Post -->
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        <!-- Custom Thumbnail -->
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="https://ws1.sinaimg.cn/large/e3bf8906gy1fehcrci4csj21hc0u0qcs.jpg">
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2017/02/25/聊聊破解和延期的尼尔/">聊聊破解和延期的尼尔</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2017/02/25/聊聊破解和延期的尼尔/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="http://ww3.sinaimg.cn/small/e3bf8906jw8e91brjlsd7j2050050jrj.jpg" width="44px" height="44px" alt="HarrisonChan's avatar">
+            </div>
+            <div>
+                <strong>HarrisonChan</strong>
+                <span>2月 25, 2017</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
 </div>
 
-  <script>setLoadingBarProgress(20)</script>
-  
-  <div id="site-wrapper">
+            
+            
+        
     
-    <header id="header">
-	<div id="header-wrapper" class="clearfix">
-		<a id="logo" href="/">
-			<img src="/images/logo.png" />
-			<span id="site-desc">
-			  keep moving
-      </span>
-		</a>
-		<button id="site-nav-switch">
-	    <span class="icon icon-menu"></span>
-	  </button>
-	</div>
-	<aside id="site-menu">
-  	<nav>
-  		
-        <a href="/" class="nav-home nav">
-          Home
-        </a>
-      
-        <a href="/about" class="nav-about nav">
-          About
-        </a>
-      
-        <a href="/archives" class="nav-archives nav">
-          Archives
-        </a>
-      
-    </nav>
-	</aside>
-</header>
-    <script>setLoadingBarProgress(40);</script>
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
     
-    <main id="main" role="main">
-      
-	
+        <!-- Custom Thumbnail -->
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="https://mmbiz.qlogo.cn/mmbiz_jpg/LP0yl0sDPpdfEUqP5fwsaHYKPwJOftFAzc4COiaXYmnBh3O0TmoE528ZDv4cWJK78GEzr2Hl4IamSZ9Ut06iapGA/0?wx_fmt=jpeg">
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2017/02/23/NIOH-仁王体验剖析/">NIOH-在异国追寻的金发人</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2017/02/23/NIOH-仁王体验剖析/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="http://ww3.sinaimg.cn/small/e3bf8906jw8e91brjlsd7j2050050jrj.jpg" width="44px" height="44px" alt="HarrisonChan's avatar">
+            </div>
+            <div>
+                <strong>HarrisonChan</strong>
+                <span>2月 23, 2017</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        <!-- Custom Thumbnail -->
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="https://mmbiz.qlogo.cn/mmbiz_jpg/LP0yl0sDPpcXYPOQK7L2ibQe366Bbb50eiaZ6cicwHwZyOJfdQryTAlXNbROWMtbVgicmWLibt47hHWpF4hdcOxaDZA/0?wx_fmt=jpeg">
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2017/02/23/如龙/">永远威武善良的野蛮黑道大叔</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            如龙
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2017/02/23/如龙/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="http://ww3.sinaimg.cn/small/e3bf8906jw8e91brjlsd7j2050050jrj.jpg" width="44px" height="44px" alt="HarrisonChan's avatar">
+            </div>
+            <div>
+                <strong>HarrisonChan</strong>
+                <span>2月 23, 2017</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+
+    
+
+    
+        <script>
+    var randomNum;
+
+    var locatePost = $('.locate-thumbnail-symbol').next();
+    for(var i = 0; i < 10; i++) {
+        randomNum = Math.floor(Math.random() * 19 + 1);
+
+        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
+        locatePost.children('.post_thumbnail-random').attr('data-original', 'https://i.pximg.net/img-original/img/2017/04/07/00/12/53/62288977_p0.png' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+
+        locatePost = locatePost.next();
+    }
+</script>
+
+    
+</div>
 
 
-	<section class="page-header archive">
-    <h1>- <span>2017.2</span> -</h1>
-  </section>
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
 
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(https://i.pximg.net/img-original/img/2017/04/09/02/59/45/62323924_p0.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
 
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
 
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="http://ww3.sinaimg.cn/small/e3bf8906jw8e91brjlsd7j2050050jrj.jpg" alt="HarrisonChan's avatar">
+    </div>
 
-<section class="post-list">
-	
-    <article class="post ">
-
-  
-  <h2 class="title">
-    <a href="/2017/02/25/聊聊破解和延期的尼尔/">
-      聊聊破解和延期的尼尔
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        jreeydy@foxmail.com
+        <b class="caret"></b>
     </a>
-  </h2>
-  
-  <time>
-    Feb 25, 2017
-  </time>
-  <section class="content">
-	  <h1 id="破解和由于某些原因延期的PC版2B小姐姐"><a href="#破解和由于某些原因延期的PC版2B小姐姐" class="headerlink" title="破解和由于某些原因延期的PC版2B小姐姐"></a>破解和由于某些原因延期的PC版2B小姐姐</h1><h2 id="破解和PC发售这些事"><a href="#破解和PC发售这些事" class="headerlink" title="破解和PC发售这些事"></a>破解和PC发售这些事</h2><p>Denuvo Anti-Tamper，是一家奥地利软件解决方案公司开发的一种防篡改技术，初始版本进入公众视野是在《FIFA 15》（2014-09-23），《堕落之王》（2014-10-28），《龙腾世纪：审判》（2014-11-18）发售时采用Denuvo后，才被玩家发现的，之前的稍微动手回复就能愉快的玩耍，变得不再是一句楼主好人或者谢谢分享就能解决的了。该公司是通过索尼数字音频光盘公司的管理层收购组成的。</p>
-<p>虽然在发布两周之后，国内著名大妈破解团队放出了《龙腾世纪：审判》的破解视频，但这对当时的PC游戏来说，已经非比寻常。 而《堕落之王》的破解花费时长甚至超过半年，达到惊人的272天。2015年，的确是PC玩家们比较纠结的一年，EA和CI games公司的这一举措，让之后的游戏厂商开始考虑在自家的游戏作品中加上一位陌生安保，毕竟防篡改效果大家都有目共睹，不过，出现的安保费用也是值得忧虑的问题。Denuvo的授权费用一定程度会促使游戏价格发生轻微变动，但是总体还是利大于毙，至此之后，2015年发售的各系列大作都开始相继采用Denuvo加密。</p>
-<p>2016年1月，3DM站长宿菲菲发文表示受Denuvo保护的《正当防卫3》破解到垮处理器时，由于难度太大 ，几乎放弃。她还称按照目前的加密技术趋势发展，两年后PC游戏将无法破解。Denuvo的托马斯·戈贝尔（Thomas Goebl）认为这种技术的存在会使一些主机独占的游戏发布PC版本。2月，受《三国志13》破解风波的影响——《三国志13》游戏开发商光荣脱裤魔起诉3DM，3DM在应付该事件和网络舆论后，决定停止一切对Denuvo加密的继续研究。<br>几天后，宿菲菲再次发文称3DM近期会公布最新Denuvo加密的解决方案，包括《FIFA 16》、《正当防卫3》、《古墓丽影：崛起》，并表示“目前我们还没有被难住”。2016年8月初，有报道称《毁灭战士》的Denuvo保护已被绕过，其他游戏的破解会在随后几天放出，之后出现了利用《DOOM》的steam Demo来伪装正版破解游玩的破解方式出现在各个论坛，尽管破解组第一次发布后这些漏洞已被修复，但后来《古墓丽影：崛起》、《Inside》和《毁灭战士》接连被破解小组CONSPIR4CY（CPY）攻破。至此，CPY破解小组开始进入公众视野，CPY是一个老牌的意呆利破解小组，之前找到记录是2013年发布的足球经理修正破解补丁，与3DM、RELOADED、CODEX、SKIDROW相比，记录甚少。<br>Playdead后来更新移除了《Inside》的Denuvo加密。id Software同样也在2016年12月通过补丁的形式移除了《毁灭战士》的Denuvo加密。</p>
-<p>当然这期间并不是所有游戏都绑上了Denuvo这个枷锁，也有众多优秀的游戏作品轻装上阵，独立开发者埃里克·巴罗内开发的《星露谷物语》，波兰萌驴CD Project的旷世作品《巫师3：狂猎》，等等等。而且销量依旧可观。</p>
-<h2 id="争议"><a href="#争议" class="headerlink" title="争议"></a>争议</h2><p>Denuvo发布一段时间，网络上出现了一些舆论，部分消费者称其防篡改缩短了固态硬盘（SSD）的寿命，因为它将过量的数据写入驱动器。 Denuvo软件解决方案回应称“Denuvo防篡改不会一直向存储介质读写任何数据”</p>
-<h2 id="2017年始"><a href="#2017年始" class="headerlink" title="2017年始"></a>2017年始</h2><p>2017年1月29日，《生化危机7》在发售5天后遭CPY破解，成为最快被破解的使用最新Denuvo技术的游戏。<br>紧接着，便是据说打算3月10日登陆PC的《尼尔：机械革命》宣布延期，虽然并没有官方消息说明是因为破解，不过SE史克威尔厂作为接连被破解数次的厂商，对此感到敏感也算情有可原。在最近的直播中，《尼尔》的制作人齐藤阳介表示Steam版的游戏可能会略微推迟发行，现在白金工作室还在修改中，他表示双方(白金工作室和史克威尔)会做一些对策来针对当前PC平台的盗版行为。齐藤阳介还谈到最近不少游戏的PC版在发行热销期就被破解，这令白金工作室感到不是很舒服。他表示Steam版的尼尔不会拖延太久，但是现在不会和PS4一起发行。</p>
-<p>破解和正版的问题，从作品诞生之日起，便是大家争论不休的问题，制作人想保护自己作品，玩家希望能以较为实惠的手段玩到游戏，哪里有需求，哪里就会有市场，除非直到任何一位同学都正视版权为止，否则无论是D版游戏还是音乐亦或电影，都逃避不了这个问题。</p>
+</div>
 
 
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="mailto: jreeydy@foxmail.com" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
     
-    
-    
-	  <div class="tags">
-      <a class="tag-link" href="/tags/个人随笔/">个人随笔</a>
-	  </div>
+        <li id="sidebar-first-li">
+            <a href="/" target="_self">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
     
 
-  </section>
-</article>
-  
-    <article class="post ">
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2017/02/">二月 2017<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/12/">十二月 2016<span class="sidebar_archives-count">2</span></a>
+            </ul>
+        </li>
+        
+    
 
-  
-  <h2 class="title">
-    <a href="/2017/02/23/NIOH-仁王体验剖析/">
-      NIOH-在异国追寻的金发人
+    <!-- Categories  -->
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/about" title="关于我">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                关于我
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/links" title="图库">
+                
+                    <i class="material-icons sidebar-material-icons">wallpaper</i>
+                
+                图库
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+    <div class="sidebar-divider"></div>
+
+
+<!-- Theme Material -->
+
+    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+            主题 - Material
+            <span class="sidebar-badge badge-circle">i</span>
+        </div>
     </a>
-  </h2>
-  
-  <time>
-    Feb 23, 2017
-  </time>
-  <section class="content">
-	  <h1 id="NIOH-仁王，光荣厂的合体牌"><a href="#NIOH-仁王，光荣厂的合体牌" class="headerlink" title="NIOH-仁王，光荣厂的合体牌"></a>NIOH-仁王，光荣厂的合体牌</h1>
 
-    
-    
-    
-	  <div class="tags">
-      <a class="tag-link" href="/tags/个人随笔/">个人随笔</a>
-	  </div>
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
     
 
-  </section>
-</article>
-  
-    <article class="post ">
+</aside>
 
-  
-  <h2 class="title">
-    <a href="/2017/02/23/如龙/">
-      永远威武善良的野蛮黑道大叔
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
     </a>
-  </h2>
-  
-  <time>
-    Feb 23, 2017
-  </time>
-  <section class="content">
-	  <p>#如龙</p>
-<p>##永远威武善良的野蛮黑道大叔</p>
-<pre><code>    如龙6——生命的诗如期在香港发售，这款由SEGA发行的讲述一位霓虹黑帮传奇人物——桐生一马一生的第三人称动作游戏，至今已经在香港发售三部曲，也是全球的重置三部曲，初版作品已开始并没有考虑大陆市场，因此并未加入中文字幕，而一部作为PlayStation独占的游戏作品，缺少地区字幕，简单的来说，就是默认减少一部分玩家、消费者。
-    而重制版的登陆，也象征着对SEGA对大陆市场潜在需求的认同。
+</div>
 
-如龙6——命の诗，作为桐生一马的最终章，叙述了打算彻底脱离黑道，为给干女儿（自己喜欢的女孩 泽城由美和别人结婚以后留下的女儿）一个普通幸福未来的“堂岛之龙”桐生一马，承担东城会的黑锅，入狱服刑。却在出狱后发现，干女儿并不能脱离“前黑帮干女儿前偶像”的标签，为了福利院的未来消失在冲绳。
-为此，桐生只能再次回到东京神室町，这个他经历友情、亲情、仁义以及阴谋和梦想的街道，却发现早已物是人非，各种势力再次混杂在这个街道，六代目被污蔑入狱，东城会群龙无首，中国黑帮入侵，新时代的黑道变的更加复杂，已经脱离组织，以一个普通人身份来寻找干女儿的桐生，不得已再次被混入这场风波中......
+                    
 
-
-即使到了游戏中的2016年，桐生还是那个桐生，也许因为岁月的流逝，总是皱眉的眼角出现的更是浓厚的眼袋，下巴也留下了胡渣，但是，依旧是那么霸气，依旧是那么热血，依旧是那么呆萌，打架依旧是拳拳到肉，动辄起飞。手持Sony Z系列智能机，支线也与时俱进，利用新的游戏引擎，让人物表情，衣物纹理变的更加贴近现实，顺便还要边照顾小孩边和街边混混群殴，真是其乐无穷(○｀ 3′○)
-</code></pre><p>##游戏系统革新<br>    本次因为由PS4独占，因此相关要素都全部焕然一新。</p>
-<p>###战斗<br>    将系统重新架构并且更新动作模组，并开发出称作“动作组合系统”的新系统，在不断的攻击下，会依照敌人的姿势以及攻击的角度、方向而呈现出自然的攻击模组或遭人攻击的模组，另外攻击中随着打中人以及被防御到而让角色有不同的反应，让战斗的演出更贴近真实。然后还有依据地形及物品的“玩偶系统”，对应角色的移动，被击飞后的限制，高低差以及动态的物件而同样作出细制的调整，让真实性更加提升。另外先前遇到敌人时必须全部打败才能结束的战斗，也改成可以中途逃走，并且也有追加让桐生的能力可以暂时提升的“无限斗气状态”。</p>
-<p>###冒险<br>    本作将《4》中登场的屋顶及地下街做了更细制的设计，除了增加游玩的自由度以外，各种场景也采用无接缝的设计，在战斗及进入店内时，都能享受无接缝的游玩方式。另外，管理画面采用智能手机的画面，还追加SNS及拍照等新功能。其他还有让全场景全语音化，以及可以在主观模式中进行移动等新功能。</p>
-<p>###小游戏<br>    本作中准备有，在神室町中，与女孩子一起网络聊天“在线聊天”、与企业联名的“RIZAP身体锻炼”、在尾道仁涯町中与猫交流的“经营猫咪咖啡厅”、棒球模拟游戏“经营业余棒球赛”、射击游戏“潜水补鱼”，以及与酒店游戏相似“小酒店游玩”等随着不同地区才会有的新小游戏。其他小游戏还有，创造组织进行乱战的“组织创造者”，以及安抚突然哭泣的遥人的“照顾小孩”。至于系列作中既有的游戏也依然不缺席，但上酒店、卡啦OK，射飞镖、棒球打击等小游戏则有其玩法。至于电玩中心里，除了在《0》中登场的老游戏外，《 VR战士5 Final Showdown》，以及《噗呦噗呦系列》也以新游戏的方式出现。</p>
-<p>总体来说，这部作品，不仅仅是给在霓虹黑帮叱咤一生的桐生画上最终章，也算是对整个系列的正统终结，毕竟，神室町终究会被玩家们踏遍每一平米。</p>
-
-
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
     
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
     
-    
-	  <div class="tags">
-      <a class="tag-link" href="/tags/个人随笔/">个人随笔</a>
-	  </div>
+        <a href="https://twitter.com/twitter" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-twitter.svg);">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
     
 
-  </section>
-</article>
-  
-</section>
-
-
-
-      <script>setLoadingBarProgress(60);</script>
-    </main>
+    <!-- Facebook -->
     
-    <footer id="footer" class="clearfix">
-  
-  
-	<div class="search">
-	  <form name="searchform" id="searchform" class="u-search-form">
-	    <input type="text" id="searchinput" class="u-search-input" placeholder="Looking for something?" />
-	    <button type="submit" id="u-search-btn-submit" class="u-search-btn-submit">
-	      <span class="icon icon-search"></span>
-	    </button>
-	  </form>
-	</div>
-	
-
-	<div class="social-wrapper">
-  	
-      
-        <a href="https://github.com/artchen" class="social github"
-          target="_blank" rel="external">
-          <span class="icon icon-github"></span>
-        </a>
-      
-        <a href="https://twitter.com/otakism" class="social twitter"
-          target="_blank" rel="external">
-          <span class="icon icon-twitter"></span>
-        </a>
-      
-        <a href="/atom.xml" class="social rss"
-          target="_blank" rel="external">
-          <span class="icon icon-rss"></span>
-        </a>
-      
-        <a href="https://plus.google.com/+ArtChenOtakism/posts" class="social google"
-          target="_blank" rel="external">
-          <span class="icon icon-google"></span>
-        </a>
-      
-        <a href="http://weibo.com/otakism/" class="social sina-weibo"
-          target="_blank" rel="external">
-          <span class="icon icon-sina-weibo"></span>
-        </a>
-      
+        <a href="https://www.facebook.com/facebook" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-facebook.svg);">
+                <span class="visuallyhidden">Facebook</span>
+            </button><!--
+     --></a>
     
-  </div>
-  
-  <div>Theme <span class="codename">Typescript</span> designed by <a href="http://rakugaki.me/" target="_blank">Art Chen</a>.</div>
-  <div>&copy; <a href="/">Hchan&quot;(￣▽￣)&quot;</a></div>
-  
+
+    <!-- Google + -->
+    
+        <a href="https://www.google.com/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-gplus.svg);">
+                <span class="visuallyhidden">Google Plus</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Weibo -->
+    
+        <a href="http://weibo.com/HarrisonChan" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-weibo.svg);">
+                <span class="visuallyhidden">Weibo</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;
+            <script type="text/javascript">
+                var fd = new Date();
+                document.write(fd.getFullYear());
+            </script>
+            &nbsp;Hchan"(￣▽￣)"
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
 </footer>
 
 
-    <script>setLoadingBarProgress(80);</script>
-    
-  </div>
+                    <!-- Import File -->
 
-  
+    <script src="/js/lazyload.min.js"></script>
+    <script src="/js/js.min.js"></script>
 
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script>window.jQuery || document.write('<script src="/js/jquery.min.js"><\/script>')</script>
 
-<script src="/js/jquery.fitvids.js"></script>
-<script>
-	var GOOGLE_CUSTOM_SEARCH_API_KEY = "";
-	var GOOGLE_CUSTOM_SEARCH_ENGINE_ID = "";
-	var ALGOLIA_API_KEY = "";
-	var ALGOLIA_APP_ID = "";
-	var ALGOLIA_INDEX_NAME = "";
-  var AZURE_SERVICE_NAME = "";
-  var AZURE_INDEX_NAME = "";
-  var AZURE_QUERY_KEY = "";
-  var BAIDU_API_ID = "";
-  var SEARCH_SERVICE = "google";
+
+    <script src="/js/nprogress.js"></script>
+
+
+<script type="text/javascript">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
 </script>
-<script src="/js/search.js"></script>
-<script src="/js/app.js"></script>
 
 
-  <script>setLoadingBarProgress(100);</script>
-  
-</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Window Load-->
+<script>
+    $(window).load(function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+</script>
+
+<!-- MathJax Load-->
+
+<script>
+    <!-- Offer LazyLoad -->
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    <!-- Start Queue -->
+    $(document).ready(function(){
+        setTimeout(function(){
+            setInterval(function(){
+                queue.execNext();
+            },200);
+        },3000);
+    });
+</script>
+
+                </main>
+            </div>
+        </body>
+    
 </html>
